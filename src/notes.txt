@@ -1,0 +1,35 @@
+anotações do curso 
+
+Api nodejs
+ Iniciar projeto- npm init -y
+Criar arquivo .gitignore- node_modules - .env
+Documentação yarn  - https://classic.yarnpkg.com/en/docs/install#windows-stable- npm install --global yarn
+Ts-node It JIT transforms TypeScript into JavaScript, enabling you to directly execute TypeScript on Node.js without precompiling. 
+Configurar typescript – yarn add -D tsc  typescript ts-node
+Criar pasta src – index.ts
+Instalar nodemon - https://www.npmjs.com/package/nodemon- yarn add -D nodemon
+nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+nodemon does not require any additional changes to your code or method of development. nodemon is a replacement wrapper for node. To use nodemon, replace the word node on the command line when executing your scr
+script nodemon – “start:dev ”: “nodemon  --watch  ‘src/’ –exec  ‘npx ts-node src/index.ts’ –e ts”
+index.ts – console.log(‘hello world ‘)
+criar arquivo de config typescript 
+fazer primeiro commit 
+instalar eslint prettier  eslint/prettier config 
+ 
+Iniciar eslint  
+Fazer setup express  
+ 
+Dotenv https://www.npmjs.com/package/dotenv
+
+
+
+Criar arquivo .env 
+
+
+criar primeiro controler src - controllers 
+protocols.ts - interfaces que o get users ira implementar www.uol.com.br 
+em get user criar a classe controle 
+ criar no protocols do getusersrepository 
+ criar pasta models users.ts
+
+ injeção de dependencias- injetar o repository dentro do controller
